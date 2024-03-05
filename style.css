@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/front.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex ul{
+    list-style: none;
+    display: flex;
+    padding-top: 40px;
+}
+.flex li a{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.section1{
+    color: white;
+    padding: 100px;
+
+}
+.section1 h1{
+    font-size: 80px;
+}
+#btn{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10%;
+    font-size: 30px;
+    width: 20%;
+    border: 0;
+    margin-top: 20px;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+}
+.about-section{
+    margin-top: 50px;
+}
+.about-section h2{
+    margin-left: 45%;
+    margin-bottom: 50px;
+}
+.about-img{
+    width: 45%;
+}
+.about-text{
+    width: 45%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-text-img{
+    display: flex;
+    justify-content: space-between;
+}
+.service-section{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/pix5.jpg);
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    margin-bottom: 80px;
+}
+.service-section h2{
+    margin-left: 45%;
+}
+#mytext{
+    padding: 20px;
+    font-size: 30px;
+    width: 50%;
+    margin: 0 auto;
+}
+#mytext ul li{
+    margin: 15px;
+    list-style: disc;
+}
+.contact-section h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-section input{
+    width: 40%;
+}
+#form{
+    margin-left: 390px;
+}
+#submit{
+    color: blue;
+    margin-left: 170px;
+    border-radius: 20px;
+    width: 90px;
+}
+.contact-section{
+    margin-bottom: 70px;
+}
+#footer{
+    background-color: black;
+    height: 60px;
+}
+#footer h3{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 972px) {
+    #btn{
+        width: 35%;
+    }
+    #form{
+        position: relative;
+        left: -20%;
+       
+    }
+}
+@media screen and (max-width: 460px) {
+    
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/front.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex ul{
+    list-style: none;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.flex li a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.section1{
+    color: white;
+    padding: 100px;
+
+}
+.section1 h1{
+    font-size: 50px;
+}
+
+#btn{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10%;
+    font-size: 30px;
+    width: 90%;
+    border: 0;
+    margin-top: 20px;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+}
+.about-section{
+    margin-top: 50px;
+}
+.about-section h2{
+    margin-left: 35%;
+    margin-bottom: 50px;
+}
+.about-img{
+    width: 45%;
+}
+.about-text{
+    width: 45%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-text-img{
+    display: flex;
+    justify-content: space-between;
+}
+.service-section{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/pix5.jpg);
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    margin-bottom: 80px;
+}
+.service-section h2{
+    margin-left: 35%;
+}
+#mytext{
+    padding: 20px;
+    font-size: 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+#mytext ul li{
+    margin: 15px;
+    list-style: disc;
+}
+.contact-section h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-section input{
+    width: 40%;
+}
+#form{
+    margin-left: 170px;
+}
+#submit{
+    color: blue;
+    margin-left: 90px;
+    border-radius: 20px;
+    width: 90px;
+}
+.contact-section{
+    margin-bottom: 70px;
+}
+#footer{
+    background-color: black;
+    height: 60px;
+}
+#footer h3{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+.none{
+    display: none   ;
+}
+    
+}
